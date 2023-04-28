@@ -183,11 +183,21 @@ td, th {
   padding: 0;
 }
 
-body {
-  background: #FFFFFF;
-  overflow-x: hidden;
+html {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
 }
-body main {
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+main {
+  min-width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
